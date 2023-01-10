@@ -87,17 +87,17 @@
 }
 
 .favorite-section .favorite-product .headphones > div:first-child {
-  background: url(../../img/byz.svg) center no-repeat;
+  background: url(../img/byz.svg) center no-repeat;
   background-position-y: 25px;
 }
 
 .favorite-section .favorite-product .headphones > div:nth-child(2) {
-  background: url(../../img/earpods1.svg) center no-repeat;
+  background: url(../img/earpods1.svg) center no-repeat;
   background-position-y: 25px;
 }
 
 .favorite-section .favorite-product .headphones > div:nth-child(3) {
-  background: url(../../img/earpods2.svg) center no-repeat;
+  background: url(../img/earpods2.svg) center no-repeat;
   background-position-y: 25px;
 }
 
@@ -173,12 +173,12 @@
 }
 
 .favorite-section .favorite-product .wireless-headphones > div:first-child {
-  background: url(../../img/airpods.svg) center no-repeat;
+  background: url(../img/airpods.svg) center no-repeat;
   background-position-y: 25px;
 }
 
 .favorite-section .favorite-product .wireless-headphones > div:last-child {
-  background: url(../../img/airpods-pro.svg) center no-repeat;
+  background: url(../img/airpods-pro.svg) center no-repeat;
   background-position-y: 25px;
 }
 
