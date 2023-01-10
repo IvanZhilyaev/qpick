@@ -85,6 +85,12 @@ h6 {
   font-weight: 400;
 }
 
+a {
+  color: #000;
+  text-decoration: none !important;
+  font-size: 17px;
+}
+
 .container {
   width: 1110px;
   margin: 0 auto;
@@ -99,6 +105,13 @@ body {
   font-weight: 500;
   font-size: 15px;
   background: #EAEAEA;
+  position: relative;
+}
+
+body .apple {
+  position: absolute;
+  top: 30px;
+  left: 300px;
 }
 
 body .title {
@@ -112,8 +125,7 @@ body .title h1 {
   color: #838383;
 }
 
-body .logo p {
-  cursor: pointer;
+body .logo a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 25px;
@@ -135,6 +147,7 @@ body header .navbar .choose-model {
   background-position: left;
   position: relative;
   cursor: pointer;
+  z-index: 100;
 }
 
 body header .navbar .choose-model p {
@@ -166,6 +179,25 @@ body header .navbar .choose-model::after {
   left: 247.5px;
 }
 
+body header .navbar .choose-model .menu-for-btn {
+  z-index: 100;
+  background: #EAEAEA;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 30px 30px;
+  padding: 19px 126px 29px 28px;
+  transform: translateY(-150%);
+  transition: transform 0.5s ease;
+}
+
+body header .navbar .choose-model .menu-for-btn li:not(li:last-child) {
+  margin-bottom: 10px;
+}
+
+body header .navbar .choose-model .menu-for-btn.active {
+  transform: translateY(0%);
+  transition: transform 0.5s ease;
+}
+
 body header .navbar .menu {
   display: flex;
   align-items: center;
@@ -179,7 +211,7 @@ body header .navbar .menu li:last-child {
   position: relative;
 }
 
-body header .navbar .menu li:last-child img:last-child {
+body header .navbar .menu li:last-child a:last-child {
   position: absolute;
   top: -5px;
   left: 17px;
@@ -187,6 +219,7 @@ body header .navbar .menu li:last-child img:last-child {
 
 body header .banner {
   position: relative;
+  z-index: -1;
 }
 
 body header .banner img:first-child {
@@ -417,12 +450,6 @@ body .wireless-headphones-section .wireless-headphones > div:nth-child(4) .rate 
   margin-top: 5px;
 }
 
-body .wireless-headphones-section .wireless-headphones > div .apple {
-  position: absolute;
-  top: 30px;
-  left: 300px;
-}
-
 body .wireless-headphones-section .wireless-headphones > div:first-child {
   background: url(../img/airpods.svg) center center no-repeat;
   background-position-y: 25px;
@@ -466,10 +493,6 @@ body footer .social img:not(img:last-child) {
   margin-right: 18px;
 }
 
-body footer .conditions-and-lang p {
-  cursor: pointer;
-}
-
 body footer .conditions-and-lang p:first-child {
   margin-bottom: 35.78px;
 }
@@ -485,6 +508,10 @@ body footer .conditions-and-lang p:last-child {
   padding-left: 38px;
 }
 
+body footer .conditions-and-lang p:last-child span {
+  cursor: pointer;
+}
+
 body footer .conditions-and-lang p:last-child span:not(span:last-child) {
   margin-right: 15px;
 }
@@ -498,11 +525,21 @@ body footer .conditions-and-lang p:last-child span:nth-child(2) {
   color: #FFA542;
 }
 
-body footer .services p {
-  cursor: pointer;
+body footer .services {
+  display: flex;
+  flex-direction: column;
 }
 
-body footer .services p:not(p:last-child) {
+body footer .services a {
+  text-decoration: none;
+  color: #000;
+}
+
+body footer .services a:not(p:last-child) {
   margin-bottom: 10.9px;
+}
+
+body footer .services a:first-child {
+  margin-top: -13px;
 }
 /*# sourceMappingURL=style.css.map */

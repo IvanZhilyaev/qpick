@@ -1,0 +1,79 @@
+body .contacts-section {
+  margin-top: 42px;
+}
+
+body .contacts-section .container {
+  display: flex;
+}
+
+body .contacts-section .container .contacts {
+  margin-right: 61px;
+  margin-left: 100px;
+}
+
+body .contacts-section .container .contacts .our-ofice {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  width: 760px;
+  padding: 15px 19.78px 30px 17.7px;
+}
+
+body .contacts-section .container .contacts .our-ofice .title-contact {
+  margin-bottom: 20px;
+}
+
+body .contacts-section .container .contacts .our-ofice .title-contact h1 {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1C1C27;
+}
+
+body .contacts-section .container .contacts .our-ofice .info-point {
+  margin-top: 13px;
+  background: url(../img/point.svg) center no-repeat;
+  background-position: left;
+  padding-left: 30px;
+}
+
+body .contacts-section .container .contacts .our-ofice .info-point p:first-child {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+body .contacts-section .container .contacts .our-ofice .info-point p:last-child {
+  font-size: 13px;
+  line-height: 16px;
+  color: #838383;
+}
+
+body .contacts-section .container .contacts .number {
+  margin-top: 44px;
+  margin-bottom: 40px;
+  background: url(../img/phone.svg) center no-repeat;
+  background-position: left;
+  padding-left: 60px;
+}
+
+body .contacts-section .container .contacts .number a {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+body .contacts-section .container .social > div {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  width: 91px;
+  height: 91px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+body .contacts-section .container .social > div:not(div:last-child) {
+  margin-bottom: 14px;
+}
+/*# sourceMappingURL=contact.css.map */
