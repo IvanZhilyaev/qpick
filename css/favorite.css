@@ -103,7 +103,7 @@
 
 .favorite-section .favorite-product .headphones > div:nth-child(3) {
   background: url(../img/earpods2.svg) center no-repeat;
-  background-position-y: 25px;
+  background-position-y: 70px;
 }
 
 .favorite-section .favorite-product .wireless-headphones {
