@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../#src/scss/adapt.scss"
+    ],
+    "names": [],
+    "file": "adapt.css"
+}
