@@ -92,6 +92,10 @@
   background-position-y: 25px;
 }
 
+.favorite-section .favorite-product .headphones > div:first-child .rate {
+  margin-top: 5px;
+}
+
 .favorite-section .favorite-product .headphones > div:nth-child(2) {
   background: url(../img/earpods1.svg) center no-repeat;
   background-position-y: 25px;
